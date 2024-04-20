@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather</title>
+</head>
+<body>
+    <div class="btn_container_signip">
+    <button id="sign_out_btn"><i id="signout_icon" class="fa-solid fa-power-off"></i>Sign out</button>
+    </div>
+
+
+    <div class="container">
+<div class="bg_image">
+    <img src="Image/3.jpg" alt="">
+
+    <div class="search_box_container"><input class="input_text" placeholder="Enter City in single word" type="text"><i class="search_icon fa-solid fa-magnifying-glass"></i>    
+    </div>
+</div>
+<div class="temp_value"><img src="image/1.png" alt="">
+    <p class="loc_para"></p>
+    <h2 class="temp_value_c">21°C</h2>
+    <!-- <h3>Partly Cloudy</h3> -->
+</div>
+<div class="weather_content">
+    <div class="box_1">
+        <i class="bottom_icon fa-solid fa-droplet"></i>
+        <p class="element_value"><span id="humidity"></span><span> %</span></p>
+        <p class="element_type">Humidity</p>
+    </div>
+    <div class="box_2">
+        <i class="bottom_icon fa-solid fa-eye"></i>
+        <p class="element_value" ><span id="visibility"></span > Km</p>
+        <p class="element_type" >Visibility</p>
+    </div>
+    <div class="box_3">
+        <i class="bottom_icon fa-solid fa-wind"></i>
+        <p class="element_value" ><span id="wind"></span><span> Km/h</span></p>
+        <p class="element_type">Wind</p>
+    </div>
+</div>
+    </div>
+    <script type="module" src="apiscript.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&family=Ubuntu&display=swap");
+
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Ubuntu", sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  box-sizing: border-box;
+  background-color: #AFEEEE;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* front page */
+ 
+.container {
+  width: 360px;
+  height: 550px;
+  background-color: #fefdfd;
+  position: relative;
+  display: flex;
+  border-radius: 7px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 7px 7px 40px rgba(0, 0, 0, 0.4);
+}
+.sun_img {
+  background-color: #0679e4;
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.sun_img img {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  border-radius: 100%;
+}
+.app_name {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 30px 5px 10px 5px;
+}
+.tag_lina {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  left: -5%;
+  color: black;
+  margin-top: 120px;
+}
+.signup__btn {
+  margin: 10px 20px 10px 20px;
+  /* width: 80%; */
+  font-size: 22px;
+  color: white;
+  padding: 20px 100px;
+  position: absolute;
+  border-radius: 4px;
+  bottom: 70px;
+  background-color: #0679e4;
+  border: none;
+}
+.signup__btn{
+    background-color: #0f8bff;
+}
+.signup__btn{
+    transform: scale(1.02);
+}
+
+
+/* weather page */
+.bg_image{
+    background-color: #183D99; 
+    width: 100%;  
+    height: 60%;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+}
+.bg_image img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    border-radius: 7px;
+    opacity: 0.3;
+}
+.weather_content{
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    bottom: 0%;
+    background-color: white;
+    border-radius: 25px;
+}
+.input_text{
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 247, 247);
+    font-size: 19px;
+    padding-left: 30px;
+}
+
+
+.input_text:active{
+    transform: scale(1.01);
+}
+.search_icon{
+    font-size: 19px;
+    color: black;
+    position: absolute;
+    right:25px;
+    top: 10px;
+    z-index: 2;
+}
+.search_icon:active{
+    font-size: 21px;
+}
+.search_box_container{
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 22px;
+    margin: 0px 18px;
+}
+.temp_value img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 24%;
+    left: 15%;
+    z-index: 10;
+}
+.temp_value h2{
+    position: absolute;
+    z-index: 10;
+    top: 22%;
+    left: 40%;
+    font-size: 60px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.temp_value p{
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 37%;
+    font-size: 25px;
+}
+.temp_value h3{
+    font-size: 25px;
+    width: 100%;
+    position: absolute;
+    top: 44%;
+    color: white;
+    left: 0%;
+    z-index: 10;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.weather_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_1, .box_2, .box_3{
+height: 70%;
+width: 100%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+border: none;
+border-radius: 10px;
+margin: 4px;
+}
+.box_1{
+    margin-left: 10px;
+}
+.box_3{
+    margin-right: 10px;
+}
+.box_1:hover,.box_2:hover, .box_3:hover{
+    background-color: rgb(255, 245, 133);
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+    transform: scale(1.02);
+}
+.bottom_icon{
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+    font-size: 30px;
+    color: #183D99;
+}
+.element_value, .element_type{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+}
+.element_type{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+}
+
+
+#sign_out_btn {
+  color: black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.24);
+  font-size: 22px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  right: 25px;
+  z-index: 10;
+  top: 2%;
+  padding-right: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+}
+#signout_icon {
+    font-size: 22px;
+    color: rgb(7, 214, 255);
+    margin: 10px 10px 10px 10px;
+  }
