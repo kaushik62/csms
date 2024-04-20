@@ -10,6 +10,9 @@ let player_list_outer_container = document.querySelector('.player_list_outer_con
 let announcement_outer_container = document.querySelector(".announcement_outer_container");
 let tournament_outer_container = document.querySelector(".tournament_outer_container");
 
+
+ponr delta
+
 announcement_link.addEventListener('click', function (event) {
     // Prevent the default behavior of the link
     event.preventDefault();
